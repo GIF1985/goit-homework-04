@@ -233,7 +233,10 @@ color:var(--logo-color);
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    
+    font-weight: 700;
+    font-size: 36px;
+   color: var(--primary-text-color);
+
   }
 
   
@@ -258,23 +261,29 @@ color:var(--logo-color);
 
 }
 
+.technique-photo{
+  width: 360px;
+}
 
 .section-laptop{
  display: block;
  max-width: 100%;
  height: auto;
+ width: 360px;
 }
 
 .section-smartphone{
   display: block;
   max-width: 100%;
   height: auto;
+  width: 360px;
 }
 
 .section-technique{
   display: block;
   max-width: 100%;
   height: auto;
+  width: 360px;
   
 }
 
@@ -293,6 +302,10 @@ color:var(--logo-color);
 
 .technique .item:last-child{
   margin-right: 0;
+}
+
+.photo-tim{
+  width: 264px;
 }
 
 .tim, 
@@ -428,10 +441,15 @@ color:var(--logo-color);
 
   }
 
+  .project-photo{
+    width: 360px;
+  }
+
   .project .item{
     display: block;
     margin-left: 0px;
     padding-bottom: 0;
+    width: 360px;
     
 
     /* margin-right: 24px;
