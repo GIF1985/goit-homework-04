@@ -16,7 +16,7 @@
   --footer-color:#E7E9FC;
   --зressed-ocean:#404BBF;
 --light-silvr-color:#8E8F99;
-  LIGHT SLATE 
+  
 }
 
 .page-header{
@@ -31,6 +31,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 1158px;
+  
   
   /* outline: 2px solid red; */
 
@@ -406,7 +407,13 @@ color:var(--logo-color);
   margin-bottom: 72px;
 }
 
-.customers-link{
+.customers{
+  padding-bottom: 120px;
+  padding-top: 92px;
+}
+
+.customers-link
+{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -414,6 +421,18 @@ color:var(--logo-color);
   height: 88px;
   border: 1px solid var(--light-silvr-color);
   border-radius: 4px;
+}
+
+.customers-item{
+  display: flex;
+  
+}
+
+
+.customers-list{
+  display: flex;
+  margin-top: 72px;
+  column-gap: 24px;
 }
 
 .customers-link:hover,
