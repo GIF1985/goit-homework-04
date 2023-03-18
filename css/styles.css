@@ -590,6 +590,7 @@ color:var(--logo-color);
 
   .project-link{
     text-decoration: none;
+    color: var(--title-text-color);
 
   }
   .item .project-photo{
