@@ -588,13 +588,15 @@ color:var(--logo-color);
 
   }
 
+  .project-link{
+    text-decoration: none;
+
+  }
   .item .project-photo{
     width: 360px;
     display: block;
-    text-decoration: none;
-   
     
-  }
+     }
 
   .project-photo:hover,
   .project-photo:focus{
