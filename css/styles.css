@@ -593,6 +593,10 @@ color:var(--logo-color);
     border-radius: 0px 0px 4px 4px;
   }
 
+  /* .project-link{
+    border-radius: 0px 0px 4px 4px;
+  } */
+
 
   .project-link:hover,
   .project-link:focus{
