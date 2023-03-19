@@ -19,22 +19,22 @@
   
 }
 
+
+img {
+display: block;      
+max-width: 100%;
+height: auto;
+}
+
 .page-header{
-  
   background-color: var(--white-color);
   border-bottom: 1px solid #E7E9FC ;
-
-
 }
 
 .container{
   margin-left: auto;
   margin-right: auto;
   width: 1158px;
-  
-  
-  /* outline: 2px solid red; */
-
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -119,7 +119,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-
   display: block;  
   padding-top: 24px;
   padding-bottom: 24px;
